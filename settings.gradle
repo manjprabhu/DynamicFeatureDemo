@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "DynamicFeatureDemo"
+include ':app'
+include ':app:dynamicfeature'
+include ':app:ConditionalDelivery'
+include ':app:conditionalDelivery'
+include ':app:onDemandDelivery'
